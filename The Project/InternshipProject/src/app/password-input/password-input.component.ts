@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./password-input.component.css']
 })
 export class PasswordInputComponent implements OnInit {
-  pageTitle: string = 'Welcome to the super secure password login for {{user.bankName}}.';
-  
+  pageTitle = 'Welcome to the super secure password login for {{user.bankName}}.';
+
   constructor() { }
 
   ngOnInit(): void {

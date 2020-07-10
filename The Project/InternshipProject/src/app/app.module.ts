@@ -1,9 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { ButtonPressingComponent } from './button-pressing/button-pressing.component';
 import { AppComponent } from './app.component';
 import { PasswordInputComponent } from './password-input/password-input.component';
-import { RouterModule } from '@angular/router'; 
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -11,9 +11,10 @@ import { RouterModule } from '@angular/router';
     PasswordInputComponent
   ],
   imports: [
-    BrowserModule,
+  BrowserModule,
     RouterModule.forRoot([
       { path: 'home', component: PasswordInputComponent },
+      { path: 'buttons', component: ButtonPressingComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
       { path: '**', redirectTo: 'home', pathMatch: 'full' }
     ])
