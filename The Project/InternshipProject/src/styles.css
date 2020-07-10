@@ -12,3 +12,19 @@ div.card {
 .table {
   margin-top: 10px
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.button {
+  background-color: #0796C7;
+  border: true;
+  border-style: solid;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
