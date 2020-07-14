@@ -4,6 +4,7 @@ import { ButtonPressingComponent } from './button-pressing/button-pressing.compo
 import { AppComponent } from './app.component';
 import { PasswordInputComponent } from './password-input/password-input.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { RouterModule } from '@angular/router';
     { path: '', redirectTo: 'home', pathMatch: 'full' },
     { path: '**', redirectTo: 'home', pathMatch: 'full' }
   ]),
+  FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
