@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "public": "dist/IntershipProject",
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
