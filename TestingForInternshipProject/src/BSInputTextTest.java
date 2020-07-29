@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.net.URL;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 //Tests if the application lets the user input valid text.
@@ -14,13 +15,14 @@ public class BSInputTextTest {
 
     public static void main(String[] args) throws Exception{
         DesiredCapabilities caps = new DesiredCapabilities();
-        WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
         caps.setCapability("os", "Windows");
         caps.setCapability("os_version", "10");
         caps.setCapability("browser", "Firefox");
         caps.setCapability("browser_version", "79.0 beta");
-        caps.setCapability("name", "Firefox valid text input test");
+        caps.setCapability("name", "Firefox Valid Text Input test");
+
+        WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
 
         driver.get("https://internproject2020.web.app/home");
 
