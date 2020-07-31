@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Apache HttpClient Integration Tests - Checkstyle report</title>
+    <link>http://hc.apache.org/httpcomponents-client</link>
+    <description>Apache HttpClient Integration Tests - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;1999 - 2020 The Apache Software Foundation</copyright>
+    <item>
+      <title>File: 46,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>http://hc.apache.org/httpcomponents-client/checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestSSLSocketFactory.java">java/org/apache/hc/client5/testing/sync/TestSSLSocketFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttp1AsyncStatefulConnManagement.java">java/org/apache/hc/client5/testing/async/TestHttp1AsyncStatefulConnManagement.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestClientAuthenticationFakeNTLM.java">java/org/apache/hc/client5/testing/sync/TestClientAuthenticationFakeNTLM.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestWindowsNegotiateScheme.java">java/org/apache/hc/client5/testing/sync/TestWindowsNegotiateScheme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestCookieVirtualHost.java">java/org/apache/hc/client5/testing/sync/TestCookieVirtualHost.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestBasicConnectionManager.java">java/org/apache/hc/client5/testing/sync/TestBasicConnectionManager.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractServerTestBase.java">java/org/apache/hc/client5/testing/async/AbstractServerTestBase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.OldPathRedirectResolver.java">java/org/apache/hc/client5/testing/OldPathRedirectResolver.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.SSLTestContexts.java">java/org/apache/hc/client5/testing/SSLTestContexts.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestMinimalClientRequestExecution.java">java/org/apache/hc/client5/testing/sync/TestMinimalClientRequestExecution.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestStatefulConnManagement.java">java/org/apache/hc/client5/testing/sync/TestStatefulConnManagement.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractHttp1IntegrationTestBase.java">java/org/apache/hc/client5/testing/async/AbstractHttp1IntegrationTestBase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractHttpAsyncFundamentalsTest.java">java/org/apache/hc/client5/testing/async/AbstractHttpAsyncFundamentalsTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.external.CachingHttpClientCompatibilityTest.java">java/org/apache/hc/client5/testing/external/CachingHttpClientCompatibilityTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestClientRequestExecution.java">java/org/apache/hc/client5/testing/sync/TestClientRequestExecution.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestRedirects.java">java/org/apache/hc/client5/testing/sync/TestRedirects.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestSPNegoScheme.java">java/org/apache/hc/client5/testing/sync/TestSPNegoScheme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2Reactive.java">java/org/apache/hc/client5/testing/async/TestH2Reactive.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2AsyncRedirect.java">java/org/apache/hc/client5/testing/async/TestH2AsyncRedirect.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2MinimalReactive.java">java/org/apache/hc/client5/testing/async/TestH2MinimalReactive.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2ClientAuthentication.java">java/org/apache/hc/client5/testing/async/TestH2ClientAuthentication.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.external.CachingHttpAsyncClientCompatibilityTest.java">java/org/apache/hc/client5/testing/external/CachingHttpAsyncClientCompatibilityTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractHttpAsyncClientAuthentication.java">java/org/apache/hc/client5/testing/async/AbstractHttpAsyncClientAuthentication.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestConnectionManagement.java">java/org/apache/hc/client5/testing/sync/TestConnectionManagement.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2AsyncMinimal.java">java/org/apache/hc/client5/testing/async/TestH2AsyncMinimal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttp1Reactive.java">java/org/apache/hc/client5/testing/async/TestHttp1Reactive.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractIntegrationTestBase.java">java/org/apache/hc/client5/testing/async/AbstractIntegrationTestBase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.win.WindowsNegotiateSchemeGetTokenFail.java">java/org/apache/hc/client5/http/impl/win/WindowsNegotiateSchemeGetTokenFail.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttp1Async.java">java/org/apache/hc/client5/testing/async/TestHttp1Async.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.external.HttpClientCompatibilityTest.java">java/org/apache/hc/client5/testing/external/HttpClientCompatibilityTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.LocalServerTestBase.java">java/org/apache/hc/client5/testing/sync/LocalServerTestBase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestIdleConnectionEviction.java">java/org/apache/hc/client5/testing/sync/TestIdleConnectionEviction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractHttpReactiveFundamentalsTest.java">java/org/apache/hc/client5/testing/async/AbstractHttpReactiveFundamentalsTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttp1ClientAuthentication.java">java/org/apache/hc/client5/testing/async/TestHttp1ClientAuthentication.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttpMinimalReactive.java">java/org/apache/hc/client5/testing/async/TestHttpMinimalReactive.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttp1AsyncRedirects.java">java/org/apache/hc/client5/testing/async/TestHttp1AsyncRedirects.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.external.HttpAsyncClientCompatibilityTest.java">java/org/apache/hc/client5/testing/external/HttpAsyncClientCompatibilityTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestClientAuthentication.java">java/org/apache/hc/client5/testing/sync/TestClientAuthentication.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestHttpAsyncMinimal.java">java/org/apache/hc/client5/testing/async/TestHttpAsyncMinimal.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestMalformedServerResponse.java">java/org/apache/hc/client5/testing/sync/TestMalformedServerResponse.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.fluent.TestFluent.java">java/org/apache/hc/client5/testing/fluent/TestFluent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.AbstractHttpAsyncRedirectsTest.java">java/org/apache/hc/client5/testing/async/AbstractHttpAsyncRedirectsTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.async.TestH2Async.java">java/org/apache/hc/client5/testing/async/TestH2Async.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestConnectionReuse.java">java/org/apache/hc/client5/testing/sync/TestConnectionReuse.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.BasicTestAuthenticator.java">java/org/apache/hc/client5/testing/BasicTestAuthenticator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.testing.sync.TestContentCodings.java">java/org/apache/hc/client5/testing/sync/TestContentCodings.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

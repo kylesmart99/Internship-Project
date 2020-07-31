@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<javadocOptions>
+  <docletArtifacts>
+    <docletArtifact />
+  </docletArtifacts>
+  <tagletArtifacts>
+    <tagletArtifact />
+  </tagletArtifacts>
+  <links>
+    <link>http://docs.oracle.com/javase/7/docs/api/</link>
+    <link>http://hc.apache.org/httpcomponents-core-5.0.x/httpcore5/apidocs/</link>
+    <link>http://hc.apache.org/httpcomponents-core-5.0.x/httpcore5-h2/apidocs/</link>
+  </links>
+  <javadocResourcesDirectory>src/main/javadoc</javadocResourcesDirectory>
+</javadocOptions>

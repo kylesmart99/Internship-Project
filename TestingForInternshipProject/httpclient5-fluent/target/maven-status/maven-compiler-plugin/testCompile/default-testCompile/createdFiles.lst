@@ -1,0 +1,8 @@
+org\apache\hc\client5\http\examples\fluent\FluentQuickStart.class
+org\apache\hc\client5\http\examples\fluent\FluentResponseHandling.class
+org\apache\hc\client5\http\examples\fluent\FluentRequests.class
+org\apache\hc\client5\http\examples\fluent\FluentAsync$1.class
+org\apache\hc\client5\http\examples\fluent\FluentAsync.class
+org\apache\hc\client5\http\fluent\TestRequest.class
+org\apache\hc\client5\http\examples\fluent\FluentExecutor.class
+org\apache\hc\client5\http\examples\fluent\FluentResponseHandling$1.class

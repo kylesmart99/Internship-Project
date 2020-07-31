@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hc.client5.testing.async.TestH2Async
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.021 s - in org.apache.hc.client5.testing.async.TestH2Async

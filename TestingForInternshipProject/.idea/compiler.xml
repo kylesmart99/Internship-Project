@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="httpclient5-fluent" />
+        <module name="httpclient5" />
+        <module name="httpclient5-testing" />
+        <module name="httpclient5-win" />
+        <module name="httpclient5-cache" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="httpclient5" target="14" />
+      <module name="httpclient5-cache" target="14" />
+      <module name="httpclient5-fluent" target="14" />
+      <module name="httpclient5-testing" target="14" />
+      <module name="httpclient5-win" target="14" />
+      <module name="TestingForInternshipProject" target="14" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

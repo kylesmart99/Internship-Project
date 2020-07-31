@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"org.apache.hc.client5.http.impl.win","l":"WindowsNegotiateScheme"},{"p":"org.apache.hc.client5.http.impl.win","l":"WindowsNegotiateSchemeFactory"},{"p":"org.apache.hc.client5.http.impl.win","l":"WindowsNTLMSchemeFactory"},{"p":"org.apache.hc.client5.http.impl.win","l":"WinHttpClients"}]

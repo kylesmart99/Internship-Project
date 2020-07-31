@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Apache HttpClient Cache - Checkstyle report</title>
+    <link>http://hc.apache.org/httpcomponents-client</link>
+    <description>Apache HttpClient Cache - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2010 - 2020 The Apache Software Foundation</copyright>
+    <item>
+      <title>File: 44,
+             Errors: 0,
+             Warnings: 0,
+             Infos: 0
+      </title>
+            <link>http://hc.apache.org/httpcomponents-client/checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCachedHttpResponseGenerator.java">java/org/apache/hc/client5/http/impl/cache/TestCachedHttpResponseGenerator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.RequestEquivalent.java">java/org/apache/hc/client5/http/impl/cache/RequestEquivalent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestAbstractSerializingAsyncCacheStorage.java">java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingAsyncCacheStorage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestProtocolAllowedBehavior.java">java/org/apache/hc/client5/http/impl/cache/TestProtocolAllowedBehavior.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestRFC5861Compliance.java">java/org/apache/hc/client5/http/impl/cache/TestRFC5861Compliance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestRequestProtocolCompliance.java">java/org/apache/hc/client5/http/impl/cache/TestRequestProtocolCompliance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.SimpleHttpCacheStorage.java">java/org/apache/hc/client5/http/impl/cache/SimpleHttpCacheStorage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestBasicHttpCache.java">java/org/apache/hc/client5/http/impl/cache/TestBasicHttpCache.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestWarningValue.java">java/org/apache/hc/client5/http/impl/cache/TestWarningValue.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCacheValidityPolicy.java">java/org/apache/hc/client5/http/impl/cache/TestCacheValidityPolicy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestResponseCachingPolicy.java">java/org/apache/hc/client5/http/impl/cache/TestResponseCachingPolicy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestProtocolRequirements.java">java/org/apache/hc/client5/http/impl/cache/TestProtocolRequirements.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCacheableRequestPolicy.java">java/org/apache/hc/client5/http/impl/cache/TestCacheableRequestPolicy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.HttpByteArrayCacheEntrySerializerTestUtils.java">java/org/apache/hc/client5/http/impl/cache/HttpByteArrayCacheEntrySerializerTestUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.HttpCacheEntryMatcher.java">java/org/apache/hc/client5/http/impl/cache/HttpCacheEntryMatcher.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestHttpCacheJiraNumber1147.java">java/org/apache/hc/client5/http/impl/cache/TestHttpCacheJiraNumber1147.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.memcached.TestPrefixKeyHashingScheme.java">java/org/apache/hc/client5/http/impl/cache/memcached/TestPrefixKeyHashingScheme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCacheRevalidatorBase.java">java/org/apache/hc/client5/http/impl/cache/TestCacheRevalidatorBase.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestDefaultAsyncCacheInvalidator.java">java/org/apache/hc/client5/http/impl/cache/TestDefaultAsyncCacheInvalidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.schedule.TestExponentialBackingOffSchedulingStrategy.java">java/org/apache/hc/client5/http/impl/schedule/TestExponentialBackingOffSchedulingStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestDefaultCacheInvalidator.java">java/org/apache/hc/client5/http/impl/cache/TestDefaultCacheInvalidator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.HttpTestUtils.java">java/org/apache/hc/client5/http/impl/cache/HttpTestUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.memcached.TestSHA256HashingScheme.java">java/org/apache/hc/client5/http/impl/cache/memcached/TestSHA256HashingScheme.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCachingExec.java">java/org/apache/hc/client5/http/impl/cache/TestCachingExec.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCachingExecChain.java">java/org/apache/hc/client5/http/impl/cache/TestCachingExecChain.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.cache.TestHttpCacheEntry.java">java/org/apache/hc/client5/http/cache/TestHttpCacheEntry.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestByteArrayCacheEntrySerializer.java">java/org/apache/hc/client5/http/impl/cache/TestByteArrayCacheEntrySerializer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCacheUpdateHandler.java">java/org/apache/hc/client5/http/impl/cache/TestCacheUpdateHandler.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestHttpByteArrayCacheEntrySerializer.java">java/org/apache/hc/client5/http/impl/cache/TestHttpByteArrayCacheEntrySerializer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.ResponseEquivalent.java">java/org/apache/hc/client5/http/impl/cache/ResponseEquivalent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestConditionalRequestBuilder.java">java/org/apache/hc/client5/http/impl/cache/TestConditionalRequestBuilder.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestAbstractSerializingCacheStorage.java">java/org/apache/hc/client5/http/impl/cache/TestAbstractSerializingCacheStorage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestProtocolDeviations.java">java/org/apache/hc/client5/http/impl/cache/TestProtocolDeviations.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCachedResponseSuitabilityChecker.java">java/org/apache/hc/client5/http/impl/cache/TestCachedResponseSuitabilityChecker.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCacheKeyGenerator.java">java/org/apache/hc/client5/http/impl/cache/TestCacheKeyGenerator.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations.java">java/org/apache/hc/client5/http/impl/cache/TestProtocolRecommendations.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.AbstractProtocolTest.java">java/org/apache/hc/client5/http/impl/cache/AbstractProtocolTest.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.DummyBackend.java">java/org/apache/hc/client5/http/impl/cache/DummyBackend.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.schedule.TestConcurrentCountMap.java">java/org/apache/hc/client5/http/schedule/TestConcurrentCountMap.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestCombinedEntity.java">java/org/apache/hc/client5/http/impl/cache/TestCombinedEntity.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.ConsumableInputStream.java">java/org/apache/hc/client5/http/impl/cache/ConsumableInputStream.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.TestResponseProtocolCompliance.java">java/org/apache/hc/client5/http/impl/cache/TestResponseProtocolCompliance.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.cache.ContainsHeaderMatcher.java">java/org/apache/hc/client5/http/impl/cache/ContainsHeaderMatcher.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://hc.apache.org/httpcomponents-client/checkstyle.html#java.org.apache.hc.client5.http.impl.schedule.TestImmediateSchedulingStrategy.java">java/org/apache/hc/client5/http/impl/schedule/TestImmediateSchedulingStrategy.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

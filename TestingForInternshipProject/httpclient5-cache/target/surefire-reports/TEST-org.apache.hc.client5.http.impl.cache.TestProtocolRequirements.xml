@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.327" tests="228" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\test-classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Unwan\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Unwan\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Unwan\.m2\repository\org\ehcache\modules\ehcache-api\3.4.0\ehcache-api-3.4.0.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.9.1\log4j-slf4j-impl-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Unwan\.m2\repository\net\spy\spymemcached\2.12.3\spymemcached-2.12.3.jar;C:\Users\Unwan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Unwan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Unwan\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Unwan\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Unwan\.m2\repository\org\easymock\easymock\3.6\easymock-3.6.jar;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1-tests.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="rat.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844\surefirebooter5460738872741163866.jar C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844 2020-07-31T10-54-12_287-jvmRun1 surefire5307471115944421105tmp surefire_216582760680267918559tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\test-classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Unwan\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Unwan\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Unwan\.m2\repository\org\ehcache\modules\ehcache-api\3.4.0\ehcache-api-3.4.0.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.9.1\log4j-slf4j-impl-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Unwan\.m2\repository\net\spy\spymemcached\2.12.3\spymemcached-2.12.3.jar;C:\Users\Unwan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Unwan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Unwan\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Unwan\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Unwan\.m2\repository\org\easymock\easymock\3.6\easymock-3.6.jar;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1-tests.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Unwan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844\surefirebooter5460738872741163866.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Unwan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Unwan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Unwan\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Unwan\Documents\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\Unwan\AppData\Local\Microsoft\WindowsApps;C:\Users\Unwan\AppData\Roaming\npm;;C:\Users\Unwan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testMustIncludeProxyAuthenticateHeaderFromAnOrigin407Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testSharedCacheMayCacheAuthorizedResponsesWithCacheControlPublic" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testGenerates504IfCannotRevalidateAMustRevalidateEntry" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCannotCombinePartialResponseIfCacheEntryDoesNotHaveACacheValidator" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testResponsesToTRACEsAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleContentEncodingHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleAllowHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testConditionalRequestWhereAllValidatorsMatchMayBeServedFromCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testHEADResponseWithUpdatedContentMD5FieldMakeACacheEntryStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentMD5HeaderOnRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentLocationToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testValidationMustUseETagIfProvidedByOriginServer" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testTransmitsAgeHeaderIfIncomingAgeHeaderTooBig" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleViaHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testStripsBadlyDatedWarningsFromForwardedResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddEtagToOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCacheIsNotUsedWhenRespondingToRequestWithCacheControlNoCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseToIfRangeWithStrongValidatorReturnsAllEntityHeaders" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test304ResponseGeneratedFromCacheIncludesExpiresCacheControlAndOrVaryIfResponseMightDiffer" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testUpdatesWarningHeadersOnValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testWarnDatesAreAddedToWarningsOnLowerProtocolVersions" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test206ContainsContentLocationIfA200ResponseWouldHaveIncludedIt" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testRequestsNotExpecting100ContinueBehaviorShouldNotSetExpectContinueHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseReturnedToClientMustHaveDateHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentTypeHeaderToCachedResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustDiscardCachedPartialResponseIfCacheValidatorsDoNotStronglyMatchAndDateHeadersAreEqual" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotForwardOPTIONSWhenMaxForwardsIsZeroOnAbsoluteURIRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentTypeToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testUnknownHeadersOnResponsesAreForwarded" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleContentEncodingHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddLastModifiedToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test100ContinueResponsesAreNotForwardedTo1_0ClientsWhoDidNotAskForThem" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testRequestsWithLowerProtocolVersionsGetUpgradedTo1_1" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleAcceptHeaderValuesIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyServerResponseHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentEncodingHeaderToCachedResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDELETERequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMustDiscardLeastRecentPartialResponseIfCacheValidatorsDoNotStronglyMatch" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testRemovesWarningHeaderIfAllWarnValuesAreBadlyDated" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPostInvalidatesCacheForThatUriInContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentTypeHeaderToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test2xxWarningsAreNotDeletedAfterSuccessfulRevalidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNoStoreOnResponseIsNotStoredInCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test302ResponseWithoutExplicitCacheabilityIsNotReturnedFromCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testExpiresHeaderMatchesDateIfAddedToCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testLowerOriginResponsesUpgradedToOurVersion1_1" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test206ResponseGeneratedFromCacheMustHaveContentRangeOrMultipartByteRangesContentType" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testSharedCacheMustUseNewRequestHeadersWhenRevalidatingAuthorizedResponsesWithMustRevalidate" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testProperlyFormattedViaHeaderIsAddedToResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testHigher1_XProtocolVersionsDowngradeTo1_1" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testExpectHeadersAreForwardedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testCacheMissOnGETUsesOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleAcceptCharsetHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDELETEWithIfNoneMatchWeakETagIsNotAllowed" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentLocationHeaderOnRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPutDoesNotInvalidateCacheForUriInContentLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test304ResponseGeneratedFromCacheIncludesContentLocationIfOriginResponseDid" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleAcceptEncodingHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testHEADResponseWithUpdatedLastModifiedFieldMakeACacheEntryStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDeleteInvalidatesCacheForThatUriInLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testSubrangeGETWithWeakETagIsNotAllowed" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleWWWAuthenticateHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCONNECTRequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testCachedResponsesWithMissingDateHeadersShouldBeAssignedOne" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testExpiresHeaderEqualToDateHeaderIsTreatedAsStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotTransmitNoCacheDirectivesWithFieldsDownstream" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testExpiresHeaderMatchesDateIfAddedToOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNoCacheOnFieldIsNotReturnedWithoutRevalidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseIsNotCombinedWithPreviousContentIfETagDoesNotMatch" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testSubrangeGETMustUseStrongComparisonForCachedResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleWarningHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustNotAddMultipartByteRangeContentTypeTo416Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testCacheControlPrivateIsNotCacheableBySharedCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultiplePragmaHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testSharedCacheMustRevalidateAuthorizedResponsesWhenSMaxAgeIsZero" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseIsNotCombinedWithPreviousContentIfLastModifiedDoesNotMatch" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPutDoesNotInvalidateCacheForUriInLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMultiHeadersAreSuccessfullyReplacedOn304Validation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testResponsesToPUTsAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCacheWithoutSupportForRangeAndContentRangeHeadersDoesNotCacheA206Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNoStoreOnResponseIsNotStoredInCacheEvenWithContraryIndicators" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentLocationHeaderFromOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleViaHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNoCacheCannotSatisfyASubsequentRequestWithoutRevalidationEvenWithContraryIndications" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustDiscardLeastRecentPartialResponseIfCachedResponseDoesNotHaveCacheValidator" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test1xxWarningsAreDeletedAfterSuccessfulRevalidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentRangeHeaderToCachedResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleContentEncodingHeaderValuesIsPreserved" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentMD5ToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentEncodingHeaderOnCachedResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseToConditionalRangeRequestDoesNotIncludeOtherEntityHeaders" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test206ResponseGeneratedFromCacheMustHaveDateHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyAllowHeaderWithUnknownMethods" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testStaleEntryWithMustRevalidateIsNotUsedWithoutRevalidatingWithOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleCacheControlHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testSharedCacheMustUseNewRequestHeadersWhenRevalidatingAuthorizedResponsesWithSMaxAge" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPutInvalidatesCacheForThatUriInRelativeContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testNoStoreOnRequestIsNotStoredInCacheEvenIfResponseMarkedCacheable" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMustReturnAFreshEnoughCacheEntryIfItHasIt" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentLocationFromOriginOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPutInvalidatesCacheForThatUriInLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testUnknownHeadersOnRequestsAreForwarded" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleCacheControlHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyLastModifiedFromOriginOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentRangeHeaderToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDELETEWithIfMatchWeakETagIsNotAllowed" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentMD5HeaderFromOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test303ResponsesAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testResponsesToDELETEsAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testConditionalRequestWhereNotAllValidatorsMatchCannotBeServedFromCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustDiscardLeastRecentPartialResponseIfIncomingRequestDoesNotHaveCacheValidator" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCacheIsNotUsedWhenRespondingToRequestWithPragmaNoCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultiplePragmaHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.003"/>
+  <testcase name="testCannotCombinePartialResponseIfCacheValidatorsDoNotStronglyMatch" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyExpiresHeaderFromOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testExpiresZeroHeaderIsTreatedAsStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPUTWithIfNoneMatchWeakETagIsNotAllowed" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testResponseToAHEADRequestMustNotHaveABody" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleExpectHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testUnknownResponseStatusCodesAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.193"/>
+  <testcase name="testDoesNotAddContentRangeToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentLocationToOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testHEADResponseWithUpdatedContentLengthFieldMakeACacheEntryStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentRangeHeaderOnCachedResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentMD5ToOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddETagHeaderOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testAgeHeaderPopulatedFromCacheEntryCurrentAge" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testViaHeaderOnResponseProperlyRecordsOriginProtocol" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMustServeAppropriateErrorOrWarningIfNoOriginCommunicationPossible" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseGeneratedFromCacheMustHaveABodyThatMatchesContentLengthHeaderIfPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPostDoesNotInvalidateCacheForUriInContentLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testNonmatchingVariantCannotBeServedFromCacheUnlessConditionallyValidated" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test304ResponseGeneratedFromCacheIncludesEtagIfOriginResponseDid" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testForwardsUnknownHeadersOnRequestsFromHigherProtocolVersions" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testWarning110IsAddedToStaleResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPOSTRequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testGenerates504IfSharedCacheCannotRevalidateAProxyRevalidateEntry" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyETagHeaderOnRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPUTRequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMalformedExpiresHeaderIsTreatedAsStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddETagToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test304ResponseGeneratedFromCacheIncludesDateHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testSharedCacheMayCacheAuthorizedResponsesWithMustRevalidate" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testStaleEntryWithProxyRevalidateOnSharedCacheIsNotUsedWithoutRevalidatingWithOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCannotServeFromCacheForVaryStar" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test206ResponsesAreNotCachedIfTheCacheDoesNotSupportRangeAndContentRangeHeaders" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test204ResponsesDoNotContainMessageBodies" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentTypeHeaderToOriginResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleTransferEncodingsInSingleHeadersIsPreserved" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPutInvalidatesCacheForThatUriInContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testUnknownMethodRequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddAMaxForwardsHeaderToForwardedOPTIONSRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDeleteInvalidatesCacheForThatUriInRelativeContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testStripsBadlyDatedWarningsFromStoredResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCannotCombinePartialResponseIfIncomingResponseDoesNotHaveACacheValidator" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDeleteDoesNotInvalidateCacheForUriInLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test304GeneratedFromCacheOnWeakValidatorDoesNotIncludeOtherEntityHeaders" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPUTWithIfMatchWeakETagIsNotAllowed" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleTransferEncodingHeadersIsPreserved" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentEncodingHeaderToOriginResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentTypeHeaderFromOriginResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleContentLanguageHeadersIsPreservedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testHEADResponseWithUpdatedETagFieldMakeACacheEntryStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddLastModifiedToOriginResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPostDoesNotInvalidateCacheForUriInLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDeleteToUriInvalidatesCacheForThatUri" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyLastModifiedHeaderFromOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test200ResponseToOPTIONSWithNoBodyShouldIncludeContentLengthZero" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testUpdatedEndToEndHeadersFrom304ArePassedOnResponseAndUpdatedInCacheEntry" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentMD5FromOriginOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPostInvalidatesCacheForThatUriInLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testAttachesWarningHeaderWhenGeneratingStaleResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMustDiscardLeastRecentPartialResponseIfCacheValidatorsDoNotStronglyMatchEvenIfResponsesOutOfOrder" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testHigherMajorProtocolVersionsOnRequestSwitchToTunnelBehavior" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentLocationHeaderOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentMD5HeaderOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPostToUriInvalidatesCacheForThatUri" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOPTIONSRequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="test304ResponseWithDateHeaderForwardedFromOriginIncludesDateHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testMustReturnACacheEntryIfItCanRevalidateIt" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testNoStoreOnRequestIsNotStoredInCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDeleteDoesNotInvalidateCacheForUriInContentLocationHeadersFromOtherHosts" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testHeuristicCacheOlderThan24HoursHasWarningAttached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testPostInvalidatesCacheForRelativeUriInContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentEncodingHeaderFromOriginResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyContentRangeHeaderFromOriginResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testTransferCodingsAreNotSentToAnHTTP_1_0Client" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentEncodingHeaderToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleContentLanguageHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNotModifiedOfNonCachedEntityShouldRevalidateWithUnconditionalGET" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCacheControlPrivateOnFieldIsNotReturnedBySharedCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyExpiresHeaderFromOriginOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCacheEntryIsUpdatedWithNewFieldValuesIn304Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyContentTypeHeaderOnCachedResponseWithNoTransform" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotAddContentEncodingToRequestIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testNoCacheCannotSatisfyASubsequentRequestWithoutRevalidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustIncludeAllowHeaderFromAnOrigin405Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyLastModifiedHeaderOnRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testResponsesToPOSTWithoutCacheControlOrExpiresAreNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testVaryStarIsNotGeneratedByProxy" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDoesNotModifyEtagFromOriginOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testViaHeaderOnRequestProperlyRecordsClientProtocol" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.003"/>
+  <testcase name="testTRACERequestsAreWrittenThroughToOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDecrementsMaxForwardsWhenForwardingOPTIONSRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustIncludeWWWAuthenticateHeaderOnAnOrigin401Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testRetainsWarningHeadersReceivedFromUpstream" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleAllowHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testPutToUriInvalidatesCacheForThatUri" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testDeleteInvalidatesCacheForThatUriInContentLocationHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testProperlyFormattedViaHeaderIsAddedToRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testRequestsExpecting100ContinueBehaviorShouldSetExpectHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testResponsesToOPTIONSAreNotCacheable" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testCannotUseVariantCacheEntryIfNotAllSelectingRequestHeadersMatch" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testOrderOfMultipleParametersInContentEncodingHeaderIsPreserved" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddLastModifiedHeaderOnCacheHit" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ResponseIncludesVariantHeadersIfValueMightDiffer" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testSharedCacheMustNotNormallyCacheAuthorizedResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testKeepsMostRecentDateHeaderForFreshResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotModifyEtagHeaderFromOrigin" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testResponseToA1_0RequestShouldUse1_1" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testOrderOfMultipleAcceptLanguageHeadersIsPreservedOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="test304ResponseDoesNotContainABody" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testSharedCacheMayCacheAuthorizedResponsesWithSMaxAgeHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testDoesNotAddContentRangeHeaderToOriginResponseWithNoTransformIfNotPresent" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testCacheDoesNotAssumeContentLocationHeaderIndicatesAnotherCacheableResource" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="test206ContainsETagIfA200ResponseWouldHaveIncludedIt" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+  <testcase name="testResponseIncludesCacheEntryEndToEndHeadersForResponseAfter304Validation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0.001"/>
+  <testcase name="testMustNotUseMultipartByteRangeContentTypeOnCacheGenerated416Responses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRequirements" time="0"/>
+</testsuite>

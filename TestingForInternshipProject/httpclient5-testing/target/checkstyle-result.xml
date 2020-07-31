@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\http\impl\win\WindowsNegotiateSchemeGetTokenFail.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttp1IntegrationTestBase.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncClientAuthentication.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncFundamentalsTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpAsyncRedirectsTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractHttpReactiveFundamentalsTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractIntegrationTestBase.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\AbstractServerTestBase.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2Async.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2AsyncMinimal.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2AsyncRedirect.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2ClientAuthentication.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2MinimalReactive.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestH2Reactive.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1Async.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1AsyncRedirects.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1AsyncStatefulConnManagement.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1ClientAuthentication.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttp1Reactive.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttpAsyncMinimal.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\async\TestHttpMinimalReactive.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\BasicTestAuthenticator.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\external\CachingHttpAsyncClientCompatibilityTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\external\CachingHttpClientCompatibilityTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\external\HttpAsyncClientCompatibilityTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\external\HttpClientCompatibilityTest.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\fluent\TestFluent.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\OldPathRedirectResolver.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\SSLTestContexts.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\LocalServerTestBase.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestBasicConnectionManager.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientAuthentication.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientAuthenticationFakeNTLM.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestClientRequestExecution.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestConnectionManagement.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestConnectionReuse.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestContentCodings.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestCookieVirtualHost.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestIdleConnectionEviction.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestMalformedServerResponse.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestMinimalClientRequestExecution.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestRedirects.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestSPNegoScheme.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestSSLSocketFactory.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestStatefulConnManagement.java">
+</file>
+<file name="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-testing\src\test\java\org\apache\hc\client5\testing\sync\TestWindowsNegotiateScheme.java">
+</file>
+</checkstyle>

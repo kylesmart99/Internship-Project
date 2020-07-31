@@ -1,0 +1,4 @@
+org\apache\hc\client5\http\impl\win\WindowsNTLMSchemeFactory.class
+org\apache\hc\client5\http\impl\win\WindowsNegotiateSchemeFactory.class
+org\apache\hc\client5\http\impl\win\WindowsNegotiateScheme.class
+org\apache\hc\client5\http\impl\win\WinHttpClients.class

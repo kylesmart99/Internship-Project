@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hc.client5.http.impl.classic.TestRedirectExec
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 s - in org.apache.hc.client5.http.impl.classic.TestRedirectExec

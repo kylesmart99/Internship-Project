@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hc.client5.testing.async.TestH2Reactive
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.301 s - in org.apache.hc.client5.testing.async.TestH2Reactive

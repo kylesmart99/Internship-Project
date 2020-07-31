@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.057" tests="87" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\test-classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Unwan\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Unwan\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Unwan\.m2\repository\org\ehcache\modules\ehcache-api\3.4.0\ehcache-api-3.4.0.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.9.1\log4j-slf4j-impl-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Unwan\.m2\repository\net\spy\spymemcached\2.12.3\spymemcached-2.12.3.jar;C:\Users\Unwan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Unwan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Unwan\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Unwan\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Unwan\.m2\repository\org\easymock\easymock\3.6\easymock-3.6.jar;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1-tests.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Denver"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="rat.skip" value="true"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844\surefirebooter5460738872741163866.jar C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844 2020-07-31T10-54-12_287-jvmRun1 surefire5307471115944421105tmp surefire_216582760680267918559tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\test-classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache\target\classes;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\Unwan\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\Unwan\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Unwan\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Unwan\.m2\repository\org\ehcache\modules\ehcache-api\3.4.0\ehcache-api-3.4.0.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.9.1\log4j-slf4j-impl-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Unwan\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Unwan\.m2\repository\net\spy\spymemcached\2.12.3\spymemcached-2.12.3.jar;C:\Users\Unwan\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Unwan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Unwan\.m2\repository\org\mockito\mockito-core\2.23.0\mockito-core-2.23.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy\1.9.0\byte-buddy-1.9.0.jar;C:\Users\Unwan\.m2\repository\net\bytebuddy\byte-buddy-agent\1.9.0\byte-buddy-agent-1.9.0.jar;C:\Users\Unwan\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Unwan\.m2\repository\org\easymock\easymock\3.6\easymock-3.6.jar;C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5\target\httpclient5-5.0.1-tests.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Unwan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Unwan\AppData\Local\Temp\surefire15049845595664967844\surefirebooter5460738872741163866.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Unwan"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Unwan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Unwan\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2020.2"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\Unwan\IdeaProjects\TestingForInternshipProject\httpclient5-cache"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files\Java\jdk-14.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Unwan\Documents\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\Unwan\AppData\Local\Microsoft\WindowsApps;C:\Users\Unwan\AppData\Roaming\npm;;C:\Users\Unwan\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testDoesNotModifyLocationOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="shouldStripContentLengthFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotAddNewWarningHeaderIfResponseArrivesStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testForwardsExistingWarningHeadersOnResponseThatArrivesStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testUsesBothLastModifiedAndETagForConditionalRequestsIfAvailable" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testRevalidatesCachedResponseWithExpirationInThePast" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="returns504ForStaleEntryWithOnlyIfCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldStripContentEncodingFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyExtensionHeaderOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="responseToGetWithQueryFrom1_0OriginAndNoExpiresIsNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyAcceptRangesOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongValidatorShouldNotContainContentMD5" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyIfNoneMatchOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyContentTypeOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlyRequestsFirstHandOneWithCacheControl" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentLanguage" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyRefererOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testResponseToExistingVariantsUpdatesEntry" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.002"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlyRequestsFirstHandOneWithPragma" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyContentRangeOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="issues304EvenWithWeakETag" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentType" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyExtensionHeaderOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainContentEncoding" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="responseToGetWithQueryFrom1_0OriginVia1_1ProxyAndNoExpiresIsNotCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldStripContentRangeFromOrigin304ResponseToStringValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyIfModifiedSinceOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlyRequestsFreshWithMaxAge" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyContentLengthOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlyRequestsFreshWithMaxStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testUsesLastModifiedDateForCacheConditionalRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyIfRangeOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainContentType" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyContentLengthOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldStripLastModifiedFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainAllow" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldInvalidateAllVariantsForUnknownMethod" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainContentLanguage" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentLength" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyUserAgentOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheHitOkWithOnlyIfCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="expiresPriorToDateWithNoCacheControlIsNotCacheable" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheMissResultsIn504WithOnlyIfCached" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainContentRange" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="variantNegotiationsDoNotIncludeEtagsForPartialResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.004"/>
+  <testcase name="testDoesNotModifyExpiresOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldStripAllowFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testMayReturnStaleResponseIfClientExplicitlySpecifiesAcceptableMaxStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyServerOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyContentTypeOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongValidatorShouldNotContainContentLength" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldInvalidateNonvariantCacheEntryForUnknownMethod" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentMD5" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyDateOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyAuthorizationOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testReturnsCachedResponsesAppropriatelyWhenNoOriginCommunication" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="returnsStaleCacheEntryWithOnlyIfCachedAndMaxStale" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentRange" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyRetryAfterOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cachedEntryShouldNotBeUsedIfMoreRecentMentionInContentLocation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyFromOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyContentRangeOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="shouldStripContentTypeFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="expiresEqualToDateWithNoCacheControlIsNotCacheable" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyDateOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testRetriesValidationThatResultsInAnOlderDated304Response" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyIfUnmodifiedSinceOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testIdentityCodingIsNotUsedInContentEncodingHeader" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongEtagValidatorShouldNotContainLastModified" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyVaryOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="otherFreshnessRequestDirectivesNotAllowedWithNoCache" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainAllow" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testResponseToExistingVariantsIsCachedForFutureResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.002"/>
+  <testcase name="testSendsAllVariantEtagsInConditionalRequest" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="shouldStripContentMD5FromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyContentMD5OnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyLastModifiedOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyIfMatchOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="shouldStripContentLanguageFromOrigin304ResponseToStrongValidation" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlySpecifiesLargerMaxAge" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainContentEncoding" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="cacheGenerated304ForStrongDateValidatorShouldNotContainLastModified" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="cacheShouldUpdateWithNewCacheableResponse" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotReturnStaleResponseIfClientExplicitlyRequestsFreshWithMinFresh" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyRangeOnRequests" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+  <testcase name="testDoesNotModifyContentMD5OnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0"/>
+  <testcase name="testDoesNotModifyETagOnResponses" classname="org.apache.hc.client5.http.impl.cache.TestProtocolRecommendations" time="0.001"/>
+</testsuite>

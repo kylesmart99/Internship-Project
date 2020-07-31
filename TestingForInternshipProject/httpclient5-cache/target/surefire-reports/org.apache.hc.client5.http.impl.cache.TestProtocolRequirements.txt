@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.hc.client5.http.impl.cache.TestProtocolRequirements
+-------------------------------------------------------------------------------
+Tests run: 228, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.327 s - in org.apache.hc.client5.http.impl.cache.TestProtocolRequirements

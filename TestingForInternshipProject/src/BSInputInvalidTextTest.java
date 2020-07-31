@@ -1,7 +1,16 @@
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+
+import java.net.URI;
 import java.net.URL;
+import java.util.ArrayList;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.client.methods.HttpPut;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.impl.client.HttpClientBuilder;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
 
 //Tests if the application throws an error when the user inputs invalid texts
 //Tests if all three errors are thrown
@@ -22,6 +31,10 @@ public class BSInputInvalidTextTest {
         caps.setCapability("name", "Firefox Invalid Text test");
 
         WebDriver driver = new RemoteWebDriver(new URL(URL), caps);
+        URI uri = new URI("https://kylesmart1:uQfjJZMYibyy5zpR8dzq@api.browserstack.com/automate/sessions/" + ((RemoteWebDriver)driver).getSessionId().toString() + ".json");
+        HttpPut putRequest = new HttpPut(uri);
+        ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
+
         driver.get("https://internproject2020.web.app/home");
         WebElement textInputElement = driver.findElement(By.id("password"));
         WebElement buttonElement = driver.findElement(By.className("button"));
@@ -64,6 +77,16 @@ public class BSInputInvalidTextTest {
 
         //Prints out how many tests have passed.
         System.out.println("Amount of tests passed: " + testsPassed);
+        if (testsPassed == 3) {
+            nameValuePairs.add((new BasicNameValuePair("status", "passed")));
+            nameValuePairs.add((new BasicNameValuePair("reason", "")));
+        } else {
+            nameValuePairs.add((new BasicNameValuePair("status", "failed")));
+            nameValuePairs.add((new BasicNameValuePair("reason", "At least one of the three tests failed. See console output for which test(s).")));
+        }
+
+        putRequest.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+        HttpClientBuilder.create().build().execute(putRequest);
 
         driver.close();
         driver.quit();

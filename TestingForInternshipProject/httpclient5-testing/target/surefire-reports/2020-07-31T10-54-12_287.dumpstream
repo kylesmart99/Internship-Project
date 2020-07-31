@@ -1,0 +1,15 @@
+# Created at 2020-07-31T10:54:59.485
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2020-07-31T10:54:59.485
+WARNING: Illegal reflective access by org.apache.hc.core5.util.ReflectionUtils$1 (file:/C:/Users/Unwan/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar) to method sun.security.ssl.SSLEngineImpl.getApplicationProtocol()
+
+# Created at 2020-07-31T10:54:59.485
+WARNING: Please consider reporting this to the maintainers of org.apache.hc.core5.util.ReflectionUtils$1
+
+# Created at 2020-07-31T10:54:59.485
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2020-07-31T10:54:59.486
+WARNING: All illegal access operations will be denied in a future release
+

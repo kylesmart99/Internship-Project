@@ -3,6 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TestingForInternshipProject.iml" filepath="$PROJECT_DIR$/TestingForInternshipProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient5/httpclient5.iml" filepath="$PROJECT_DIR$/httpclient5/httpclient5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient5-cache/httpclient5-cache.iml" filepath="$PROJECT_DIR$/httpclient5-cache/httpclient5-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient5-fluent/httpclient5-fluent.iml" filepath="$PROJECT_DIR$/httpclient5-fluent/httpclient5-fluent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient5-testing/httpclient5-testing.iml" filepath="$PROJECT_DIR$/httpclient5-testing/httpclient5-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient5-win/httpclient5-win.iml" filepath="$PROJECT_DIR$/httpclient5-win/httpclient5-win.iml" />
     </modules>
   </component>
 </project>

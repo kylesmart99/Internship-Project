@@ -1,0 +1,9 @@
+org\apache\hc\client5\http\fluent\Form.class
+org\apache\hc\client5\http\fluent\Content.class
+org\apache\hc\client5\http\fluent\Async$ExecRunnable.class
+org\apache\hc\client5\http\fluent\Executor.class
+org\apache\hc\client5\http\fluent\Request.class
+org\apache\hc\client5\http\fluent\Response.class
+org\apache\hc\client5\http\fluent\Async.class
+org\apache\hc\client5\http\fluent\ContentResponseHandler.class
+org\apache\hc\client5\http\fluent\HttpHeader.class
